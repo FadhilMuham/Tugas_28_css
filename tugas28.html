@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas28</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        *{
+            background-color: #333333;
+        }
+        .form-group{
+            margin: 2em auto;
+            width: 570px;
+        }
+        label{
+            color: white;
+        }
+        .btn{
+            text-align: center;
+            background-color: rgb(0, 192, 192);
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <img src="lampung.jpg" class="rounded-circle mx-auto d-block" width="150px" height="100px"/>
+            <br><br>
+            <label>Nama Lengkap :</label>
+            <input type="text" class="form-control" placeholder="Nama lengkap">
+            <br>
+            <label>Alamat :</label>
+            <textarea class="form-control" rows="5" cols="40"></textarea>
+            <br>
+            <label>Alamat Email :</label>
+            <input class="form-control" type="email" disabled placeholder="Alamat email (disable)">
+            <br>
+            <label>Password :</label>
+            <input type="password" class="form-control">
+            <br>
+            <label>Scan Ktp :</label>
+            <input type="file" class="form-control">
+            <br>
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1"> Saya <u>setuju</u> dan telah membaca <a href="#">aturan</a> serta <a href="#">ketentuan</a> yang berlaku</label>
+            <br><br>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
